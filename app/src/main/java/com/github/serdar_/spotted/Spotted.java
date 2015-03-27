@@ -42,7 +42,7 @@ public class Spotted extends ActionBarActivity {
                 dispatchTakePictureIntent();
             }
         });
-        // Image analysis (filtering) button
+        // Image upload button
         final Button button2 = (Button) findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
